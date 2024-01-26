@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "wolt-delivery-fee-calculator"
+version = "0.1.0"
+description = ""
+authors = ["Hieu Nguyen"]
+readme = "README.md"
+packages = [{include = "wolt_delivery_fee_calculator"}]
+
+[tool.poetry.dependencies]
+python = "3.8.10"
+fastapi = "^0.109.0"
+uvicorn = "^0.27.0.post1"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
