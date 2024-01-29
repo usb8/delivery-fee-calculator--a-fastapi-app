@@ -26,5 +26,6 @@ $ poetry install
 ```shell
 $ python ./app.py # Run app
 $ black . # Prettier / format code
+$ python -m unittest tests.<test-name> # Run one test
 $ python -m unittest tests/* # Run all test
 ```
