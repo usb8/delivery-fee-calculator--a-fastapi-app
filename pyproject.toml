@@ -4,7 +4,6 @@ version = "0.1.0"
 description = ""
 authors = ["Hieu Nguyen"]
 readme = "README.md"
-packages = [{include = "wolt_delivery_fee_calculator"}]
 
 [tool.poetry.dependencies]
 python = "3.8.10"
@@ -14,6 +13,7 @@ uvicorn = "^0.27.0.post1"
 
 [tool.poetry.group.dev.dependencies]
 black = "^24.1.1"
+httpx = "^0.26.0"
 
 [build-system]
 requires = ["poetry-core"]
